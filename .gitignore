@@ -1,18 +1,33 @@
-# Project exclude paths
+# mac(Desktop Services Store)
 **/.DS_Store
 
-**/.idea
+# IDEA
+/.idea
 **/*.iml
-**/.gradle/
+
+# Eclipse
+/.classpath
+/.project
+/.settings
+
+# VSCode
+/.vscode
+
+# JavaScript
+**/node_modules
+
+# SBT(Scala) Source Root
+/.bsp
+/project
+
+# Graddle
+**/.gradle
 **/settings.gradle
-**/build/
+
+# Gradle, Maven, SBT(Scala) Build Output
+**/build
 **/out
+**/target
 
-**/.classpath
-**/.project
-**/.settings
-**/target/
-
-**/.vscode
-
-**/private-resources
+# Private Study Resources
+/private-resources!/.bsp/
