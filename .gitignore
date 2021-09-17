@@ -2,7 +2,7 @@
 **/.DS_Store
 
 # IDEA
-/.idea
+**/.idea
 **/*.iml
 
 # Eclipse
@@ -17,8 +17,8 @@
 **/node_modules
 
 # SBT(Scala) Source Root
-/.bsp
-/project
+**/.bsp
+**/project
 
 # Graddle
 **/.gradle
@@ -30,4 +30,4 @@
 **/target
 
 # Private Study Resources
-/private-resources!/.bsp/
+/private-resources
